@@ -1,73 +1,94 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
   <title>Surprise!</title>
   <link rel="icon" 
       type="image/png" 
       href="uday.jpeg" />
-  <link rel='stylesheet' href='https://unpkg.com/splitting/dist/splitting.css'>
-<link rel='stylesheet' href='https://unpkg.com/splitting/dist/splitting-cells.css'><link rel="stylesheet" href="./style.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
 <body>
-<!-- partial:index.partial.html -->
-<div class="container">
-  <div class="text" data-splitting="">Happy Birthday Uday!!!!</div>
-  <div class="presents">
-    <div class="present orange">
-      <div class="lid"></div>
-      <div class="box"></div>
-      <div class="bow"></div>
-      <div class="ribbon"></div>
-    </div>
-    <div class="present blue">
-      <div class="lid"></div>
-      <div class="box"></div>
-      <div class="bow"></div>
-      <div class="ribbon"></div>
-    </div>
-    <div class="present green">
-      <div class="lid"></div>
-      <div class="box"></div>
-      <div class="bow"></div>
-      <div class="ribbon"> </div>
-    </div>
+<div class="row"> 
+  <div class="column">
+    <div style="padding:181.82% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121497?h=884db3cf2e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Father"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:203.39% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121159?h=032747648c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Ian.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
   </div>
-  <button onClick="passWord()" class="button">Don't Click Here :P</button>
+  <div class="column">
+    <div style="padding:182.05% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121189?h=b508418229&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Mother.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:178.26% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121239?h=456e280b58&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Abishek"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:54.93% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/650377359?h=f7834fdeee&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Grandparents.MP4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  </div>  
+  <div class="column">
+    <div style="padding:133.33% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121196?h=4c4b2f9dc5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Indraniel.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121252?h=74b5c93c39&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Alyssa"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121211?h=98601e39e9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Eugenia.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:145% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121236?h=4009086be0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Marina"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  </div>
+  <div class="column">
+    <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121168?h=7ba1139f8b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Arjun.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121179?h=f271684ed0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Aditiya.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/647121204?h=0e79cf2d44&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Sneha.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  </div>
 </div>
-<!-- password -->
-
-<script>
-function passWord() {
-	var testV = 1;
-	var pass1 = prompt('What is Udays favorite food?','');
-	while (testV < 3) {
-		if (!pass1)
-			history.go(-1);
-		if (pass1.toLowerCase() == "ramen") {
-			alert('You Got it Right!');
-			window.open('protectpage.html');
-			break;
-		}
-		testV+=1;
-		var pass1 =
-		prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-		}
-	if (pass1.toLowerCase()!="password" & testV ==3)
-		history.go(-1);
-	return " ";
-	}
-</script>
-<CENTER>
-<FORM>
-</FORM>
-</CENTER>
-
-<!-- partial -->
-  <script src='https://cdn.jsdelivr.net/mojs/0.288.1/mo.min.js'></script>
-<script src='https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js'></script>
-<script src='https://unpkg.com/splitting/dist/splitting.min.js'></script><script  src="./script.js"></script>
 
 </body>
 </html>
